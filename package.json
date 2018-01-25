@@ -2,7 +2,11 @@
   "name": "GRo_api",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "API for GRo",
   "license": "MIT",
+  "engines": {
+    "node": "8.9.1"
+  },
   "scripts": {
     "devserver": "nodemon --exec babel-node -- src/index.js",
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
@@ -38,5 +42,14 @@
     "request-promise": "^4.2.2",
     "xml2js": "^0.4.19",
     "rimraf": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roman-osadchuk/GRo_backend"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ]
 }
