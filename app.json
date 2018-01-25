@@ -2,7 +2,6 @@
   "name": "API for GRo",
   "description": "Node.js app using Express",
   "repository": "https://github.com/roman-osadchuk/GRo_backend",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/dist/css/node.svg",
   "keywords": ["node", "express", "heroku", "api", "gro"],
   "image": "heroku/nodejs"
 }
