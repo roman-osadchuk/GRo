@@ -3,7 +3,7 @@ node_modules/
 dist/
 .eslintcache
 coverage/
-yarn.lock
+*.yarn.lock
 .nyc_output
 .DS_Store
 public/*bundle*
